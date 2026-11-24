@@ -1,6 +1,6 @@
 # Raja Rajeswari Arts Academy
 
-## 🌐 Live Demo
+## Live Demo
 
 **Visit the Raja Rajeswari Arts Academy website:**
 
