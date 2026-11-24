@@ -1,5 +1,11 @@
 # Raja Rajeswari Arts Academy
 
+## 🌐 Live Demo
+
+**Visit the Raja Rajeswari Arts Academy website:**
+
+🔗 [View Live Website](https://raja-rajeswari-arts-academy-o80y.netlify.app/)
+
 A responsive dance academy website built using **React.js** to present the academy, its services, classes, and gallery in an organized and engaging way.
 
 ## About the Project
