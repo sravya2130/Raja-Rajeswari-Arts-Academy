@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+# Raja Rajeswari Arts Academy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive dance academy website built using **React.js** to present the academy, its services, classes, and gallery in an organized and engaging way.
+
+## About the Project
+
+**Raja Rajeswari Arts Academy** is a React-based website project designed to establish an online presence for a dance academy. It provides visitors with dedicated pages to explore the academy, learn about its offerings, and view its gallery.
+
+The project focuses on component-based development, reusable UI elements, and a clean website structure.
+
+## Features
+
+- **Home Page**           – Welcoming landing page for visitors.
+- **About Page**          – Dedicated section introducing the academy.
+- **Classes Section**     – Displays information about academy classes.
+- **Services Page**       – Presents the services offered by the academy.
+- **Gallery Page**        – Showcases images through a dedicated gallery.
+- **Testimonials**        – Displays visitor or student feedback.
+- **Reusable Components** – Organized components for easier maintenance.
+- **Navigation**          – Provides navigation between website sections and pages.
+
+
+## Screenshots
+
+Explore the different sections of the Raja Rajeswari Arts Academy website.
+
+### Home Page
+
+| Hero Section | About the Academy |
+|---|---|
+| ![Home Hero](screenshots/home-hero.png) | ![Home About](screenshots/home-about.png) |
+
+| Our Classes | Student Testimonials |
+|---|---|
+| ![Home Classes](screenshots/home-classes.png) | ![Testimonials](screenshots/home-testimonials.png) |
+
+![Call to Action and Footer](screenshots/home-cta-footer.png)
+
+### About Us
+
+| Our Mission | About the Guru |
+|---|---|
+| ![Our Mission](screenshots/about-mission.png) | ![About the Guru](screenshots/about-guru.png) |
+
+![Three Decades of Excellence](screenshots/about-excellence.png)
+
+### Services
+
+![Discover Your Perfect Class](screenshots/services-overview.png)
+
+![Carnatic Music](screenshots/services-carnatic-music.png)
+
+### Dance Gallery
+
+![Dance Gallery](screenshots/dance-gallery.png)
+
+### Registration
+
+![Registration Form](screenshots/registration-form.png)
+
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| JavaScript | Website functionality |
+| HTML5 | Website structure |
+| CSS3 | Styling and layout |
+| npm | Package management |
+| Create React App | React project setup |
+
+## Project Structure
+
+dance-academy/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar
+│   │   ├── Hero
+│   │   ├── About
+│   │   ├── Classes
+│   │   ├── CTA
+│   │   ├── Footer
+│   │   ├── Stats
+│   │   └── Testimonials
+│   │
+│   ├── pages/
+│   │   ├── Home
+│   │   ├── AboutPage
+│   │   ├── Gallery
+│   │   └── Services
+│   │
+│   └── App.js
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/sravya2130/Raja-Rajeswari-Arts-Academy.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd Raja-Rajeswari-Arts-Academy
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm start
+```
+
+The website will open at:
+
+`http://localhost:3000`
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Runs the development server |
+| `npm test` | Launches the test runner |
+| `npm run build` | Creates an optimized production build |
 
-### `npm start`
+## Future Improvements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Deploy the website for public access.
+- Improve accessibility and responsiveness.
+- Add further interactive features.
+- Optimize website performance.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Repository
 
-### `npm test`
+[View Raja Rajeswari Arts Academy on GitHub](https://github.com/sravya2130/Raja-Rajeswari-Arts-Academy)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+**Developed as a frontend web development project using React.js.**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Developed By
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**SREERAM JHANSI LAKSHMI SRAVYANJALI**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@sravya2130](https://github.com/sravya2130)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ If you find this project interesting, feel free to explore the repository!

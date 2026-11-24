@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import React from "react";
@@ -169,39 +170,44 @@ const AboutPage = () => {
       </section>
 
       {/* FOUNDER */}
-      <section className="founder-section">
+<section className="founder-section">
 
-        <div className="founder-image">
+  <div className="founder-top">
+    <div className="founder-image">
+      <img src={founderImg} alt="Founder" />
+    </div>
 
-          <img src={founderImg} alt="Founder" />
+    <div className="founder-content">
+      <span className="section-tag">
+        Meet Our Founder
+      </span>
 
-        </div>
+      <h2>
+        Kalaratna Dr. S. <span>Usha Rani </span>Hamsa Awardee
+      </h2>
 
-        <div className="founder-content">
+      <p>
+        Dr. S. Usharani is a Kuchipudi dancer, academician, and Acharya with over 35+ years of experience. Daughter of Sri Srinivasan and Smt. Rajyalakshmi, she trained under Late Dr. Uma Rama Rao, Sri Bhagavathula Sethuram, Dr. Pasumarthi Seshu Babu, Late Sri Chinta Adinarayana Sarma, Sri Vedantham Radheshyam, Pasumarthi Ramalinga Sasthri, and vocal Sita Mahalakshmi. She holds B.Com, B.A, M.A. in kuchipudi dance and M.A in Telugu from P.S. Telugu University and Dravidian University, and a Ph.D. in Kuchipudi for her thesis on _Kankundi Kuppam Veedhi Natakalu_ kuchipudi yakshaganam comparitive study. She has taught for 14 years at Bharatiya Vidya Bhavan, Hyderabad, and for 20 years at Sri Venkateswara College of Music and Dance, Tirupati.
+      </p>
+    </div>
+  </div>
 
-          <span className="section-tag">
-            Meet Our Founder
-          </span>
+  {/* IDHI PHOTO KINDHA KI VASTHADI */}
+  <div className="founder-bottom">
+    <p>
+      She has choreographed and performed numerous Kuchipudi ballets including _Mahishasura Mardhini, Girija Kalyanam, Shodasalingalu, Panchabhuthalu, Ashtalakshmi Vaibhavam, Ruthu Sandhesam, Kaalaratri, Annamayya Ballet, Brahmotsavam Ballet, Sabari Ballet, Andal Tiruppavai, Jayadeva Ashtapadi_ for Doordarshan, and more. Her _Sri Kanta Stanuvu_ dance drama earned her the title “Sabari Usha.” For T.T.D., she created _Dhyanotsavalu, Nritya Sankeerthana, Brahmotsava Vahana Seva,_ and annual Brahmotsavam performances. She has presented at national and international conferences, Amaravathi Foundation Day, Prapancha Maha Sabalu, Maha Kumbh Mela 2025, and conducted classes and shows in the USA for PAMONA Temple, TAMA Festival, and across New York, California, Atlanta, Pennsylvania, and other cities.
+    </p>
 
-          <h2>
-          Kalaratna Dr. S. <span>Usha Rani </span>Hamsa Awardee
-          </h2>
+    <p>
+      Her honors include ‘A’ Grade Doordarshan artist, National Scholarship from Ministry of Culture, Nandi Award, Hamsa Award 2025, Natya Mayuri, Kala Prapoorna, Natyachudamani, Natyaveda Visharadha, Abhinayanethri, and Nrithyachudamani. She has guided around 2500+ students to Visaradha, Praveena, certificates, diplomas, and degrees, trained physically and mentally challenged students, and taught 80 students in the USA and 50 NRI students in Hyderabad. An author of _Srimad Bhagavad Geetha Nrithya reethi, Yakshaganamu – Veedhi Bhagavatham,_ and an “All-in-one” guide for BA/MA students, she has also written articles, given AIR talks, judged competitions, and performed 2000+ shows across India and abroad. Her characters include Krishna, Venkateswara, Meerabai, Radha, Seetha, Annamayya, Sabari, Ravanasura, Kabhir Das, Kala Purushudu, Kali, Durgadevi, Ardhanadhishvara and more. Dance is her life, and she works to preserve Indian culture through teaching, performing, and innovation.
+    </p>
 
-          <p>
-            Dr. S. Usharani is a Kuchipudi dancer, academician, and Acharya with over 35+ years of experience. Daughter of Sri Srinivasan and Smt. Rajyalakshmi, she trained under Late Dr. Uma Rama Rao, Sri Bhagavathula Sethuram, Dr. Pasumarthi Seshu Babu,Late Sri Chinta Adinarayana Sarma, Sri Vedantham Radheshyam, Pasumarthi Ramalinga Sasthri, and vocal Sita Mahalakshmi. She holds B.Com, B.A, M.A. in kuchipudi dance and M.A in Telugu from P.S. Telugu University and Dravidian University, and a Ph.D. in Kuchipudi for her thesis on _Kankundi Kuppam Veedhi Natakalu_ kuchipudi yakshaganam comparitive study. She has taught for 14 years at Bharatiya Vidya Bhavan, Hyderabad, and for 20 years at Sri Venkateswara College of Music and Dance, Tirupati.<br></br>
+    <div className="quote-box">
+      “Every student grows with confidence!”
+    </div>
+  </div>
 
-She has choreographed and performed numerous Kuchipudi ballets including _Mahishasura Mardhini, Girija Kalyanam, Shodasalingalu, Panchabhuthalu, Ashtalakshmi Vaibhavam, Ruthu Sandhesam, Kaalaratri, Annamayya Ballet, Brahmotsavam Ballet, Sabari Ballet, Andal Tiruppavai, Jayadeva Ashtapadi_ for Doordarshan, and more. Her _Sri Kanta Stanuvu_ dance drama earned her the title “Sabari Usha.” For T.T.D., she created _Dhyanotsavalu, Nritya Sankeerthana, Brahmotsava Vahana Seva,_ and annual Brahmotsavam performances. She has presented at national and international conferences, Amaravathi Foundation Day, Prapancha Maha Sabalu, Maha Kumbh Mela 2025, and conducted classes and shows in the USA for PAMONA Temple, TAMA Festival, and across New York, California, Atlanta, Pennsylvania, and other cities.<br></br>
-
-Her honors include ‘A’ Grade Doordarshan artist, National Scholarship from Ministry of Culture, Nandi Award, Hamsa Award 2025, Natya Mayuri, Kala Prapoorna, Natyachudamani, Natyaveda Visharadha, Abhinayanethri, and Nrithyachudamani. She has guided around 2500+ students to Visaradha, Praveena, certificates, diplomas, and degrees, trained physically and mentally challenged students, and taught 80 students in the USA and 50 NRI students in Hyderabad. An author of _Srimad Bhagavad Geetha Nrithya reethi, Yakshaganamu – Veedhi Bhagavatham,_ and an “All-in-one” guide for BA/MA students, she has also written articles, given AIR talks, judged competitions, and performed 2000+ shows across India and abroad. Her characters include Krishna, Venkateswara, Meerabai, Radha, Seetha, Annamayya, Sabari, Ravanasura,Kabhir Das, Kala Purushudu,  Kali, Durgadevi, Ardhanadhishvara and more. Dance is her life, and she works to preserve Indian culture through teaching, performing, and innovation.<br></br>
-          </p>
-
-          <div className="quote-box">
-            “Every student grows with confidence!”
-          </div>
-
-        </div>
-
-      </section>
+</section>
 
       {/* ACHIEVEMENTS */}
       <section className="achievement-section">
@@ -342,179 +348,10 @@ Her honors include ‘A’ Grade Doordarshan artist, National Scholarship from M
 
 </section>
 
-      {/* FOOTER */}
-      <footer className="footer">
+          {/* FOOTER */}
+      <Footer />
 
-        <div className="footer-grid">
-
-          {/* LEFT */}
-          <div className="footer-box">
-
-            <h2>
-              Studio 5 Dance Academy
-            </h2>
-
-            <p>
-              Where passion meets performance.
-              Join us to discover the joy of dance
-              and express yourself through movement.
-            </p>
-
-            <div className="social-icons">
-
-              <a
-                href="https://www.instagram.com/rr.arts_academy?igsh=Y293Y3VxanZ1MGY5"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaInstagram />
-              </a>
-
-              <a
-                href="https://youtube.com/@usharani-vi9zh?si=7cjBNgH-FUadHGS8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaYoutube />
-              </a>
-
-            </div>
-
-          </div>
-
-           {/* CONTACT */}
-          
-                    <div className="footer-box">
-          
-                      <h3>
-                        Contact Us
-                      </h3>
-          
-                      <p className="branch-title">
-                        Branch 1:
-                      </p>
-          
-                      <p>
-                        Opposite Bharat Petrol Bunk,
-                        <br />
-                        Beside Ayam Cafe,
-                        <br />
-                        West Vidyanagar,
-                        <br />
-                        Tirupati, Andhra Pradesh - 517502
-                      </p>
-          
-                      <a
-                        href="https://share.google/O6ul0tbbESQAW5btr"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="map-link"
-                      >
-          
-                        <FaMapMarkerAlt />
-          
-                        <span>
-                          View Branch 1 on Google Maps
-                        </span>
-          
-                      </a>
-          
-                      <br />
-          
-                      <p className="branch-title">
-                        Branch 2:
-                      </p>
-          
-                      <p>
-                        D. No. 18-1-505c, Mosque Road,
-                        <br />
-                        Near Krishna Scanning Centre,
-                        <br />
-                        VV Mahal Road,
-                        <br />
-                        Tirupati, Andhra Pradesh - 517502
-                      </p>
-          
-                      <a
-                        href="PASTE_BRANCH2_GOOGLE_MAP_LINK"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="map-link"
-                      >
-          
-                        <FaMapMarkerAlt />
-          
-                        <span>
-                          View Branch 2 on Google Maps
-                        </span>
-          
-                      </a>
-          
-                      <div className="footer-numbers">
-          
-                        <a href="tel:+919848426892">
-                          9848426892
-                        </a>
-          
-                      </div>
-          
-                    </div>
-
-         {/* QUICK LINKS */}
-<div className="footer-box">
-
-  <h3>
-    Quick Links
-  </h3>
-
-  <ul>
-
-    <li>
-      <Link to="/">
-        Home
-      </Link>
-    </li>
-
-    <li>
-      <Link to="/services">
-        Our Classes
-      </Link>
-    </li>
-
-    <li>
-      <Link to="/about">
-        About Us
-      </Link>
-    </li>
-
-    <li>
-      <a
-        href="https://wa.me/919848426892"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Online Classes Available
-      </a>
-    </li>
-
-  </ul>
-
-</div>
-
-        </div>
-
-        <div className="footer-bottom">
-
-          <p>
-            © 2025 RR Arts Academy.
-            All rights reserved. | Est. 2025
-          </p>
-
-        </div>
-
-      </footer>
     </div>
   );
 };
-
 export default AboutPage;

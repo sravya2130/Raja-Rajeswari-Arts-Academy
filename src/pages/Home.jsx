@@ -5,7 +5,7 @@ import About from '../components/About';
 import Classes from '../components/Classes';
 import Testimonials from '../components/Testimonials';
 import CTA from '../components/CTA';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 
 const Home = () => {
   return (
