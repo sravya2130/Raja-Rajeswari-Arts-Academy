@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUsers, FaAward, FaClock, FaStar } from 'react-icons/fa';
+import { FaUsers, FaAward, FaClock } from 'react-icons/fa';
 
 const Stats = () => {
   const data = [

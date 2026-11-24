@@ -1,7 +1,5 @@
 import Footer from "./Footer";
 import "./Services.css";
-import { Link } from "react-router-dom";
-import { FaMapMarkerAlt } from "react-icons/fa";
 
 import westernImg from "./westeren.jpg";
 import classicalImg from "./classical.jpg";

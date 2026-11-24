@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import { FaMapMarkerAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import React from "react";
 import "./AboutPage.css";
@@ -11,8 +10,6 @@ import {
   FaAward,
   FaCheckCircle,
   FaPhoneAlt,
-  FaInstagram,
-  FaYoutube,
 } from "react-icons/fa";
 
 import IMG from "./assets/gallery1.jpg";
